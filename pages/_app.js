@@ -7,7 +7,7 @@ config.autoAddCss = false
 
 export default function App({ Component, pageProps }) {
   return (
-    <div>
+    <div className="bg-black">
       <Layout>
         <Component {...pageProps} />
       </Layout>
